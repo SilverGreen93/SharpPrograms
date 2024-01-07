@@ -4,6 +4,14 @@ This repository contains BASIC programs for the [Sharp PC-1211 Pocket Computer](
 
 The `TRS-80 manual` directory contains the sample programs that were available in the original [TRS-80 PC-1 manual](https://archive.org/details/trs80-pc1-manual). The programs were OCD'd in and I made the necessary corrections where needed, without altering the original in any way, except that I modified the original labels to be able to load all programs together (see below). These programs work best on the PC without a connected printer.
 
+My personal programs are divided between two directories:
+
+- The `Printer output` directory contains my programs that work best with the CE-122 printer interface and will print the results formatted for the 16 characters line of the printer. The input will be made on the keyboard and display, but all output will be redirected to the printer and formatted accordingly. To enable the printer, make sure to power on the printer first and activate print. Then press the ON button twice on the Pocket Computer to redirect output to the printer.
+
+- The `Display output` directory contains my programs that work best with the Sharp PC-1211 without any printer connected. Both the input and output will be on the PC display.
+
+Most programs that I wrote are available in both a printer and display version.
+
 ## Loading the programs
 
 Use [Sharp PocketTools GUI](https://github.com/SilverGreen93/SharpPocketToolsGUI) to convert the BASIC programs to WAV or MP3.
@@ -22,7 +30,7 @@ If you want to load multiple programs simultaneously, you can enter `CLOAD 1"nam
 
 ## List of programs
 
-From the TRS-80 manual:
+### From the TRS-80 manual
 
 | Title | Page | File | Steps | Labels |
 | ----- | ---- | ---- | ----- | ------ |
@@ -32,6 +40,31 @@ From the TRS-80 manual:
 | DAYS BETWEEN DATES | 109 | [DAYS.BAS](TRS-80%20manual/DAYS.BAS) | 387 | D |
 | RANDOM NUMBERS | 111 | [RANDOM.BAS](TRS-80%20manual/RANDOM.BAS) | 121 | Z |
 | NORMAL DISTRIBUTION AND PERCENTILE | 113 | [DISTRIB.BAS](TRS-80%20manual/DISTRIB.BAS) | 327 | N, M |
+
+### My programs
+
+My original programs are written in Romanian, but have been translated in English as well. You can find both versions here. The file column contains the Printer version (P) and the Display version (D) links to the program. Each program contains descriptions and comments at the beginning of the file.
+
+**Romanian versions:**
+
+| Titlu | Fișier | Pași | Etichete |
+| ----- | ------ | ---- | -------- |
+| Bon comandă | P: [BON.BAS](Printer%20output/BON.BAS) <br> D: N/A | 151 | B, G |
+| Bioritm | P: [BIORITM.BAS](Printer%20output/BIORITM.BAS) <br> D: [BIORITM.BAS](Display%20output/BIORITM.BAS) | 556 <br> 468 | A, Z |
+| Extrageri numere aleatoare | P: [RAND.BAS](Printer%20output/RAND.BAS) <br> D: [RAND.BAS](Display%20output/RAND.BAS) | 179 <br> 142 | X |
+| Ghicește codul | P&D: [COD.BAS](Printer%20output/COD.BAS) | 718 | C |
+| Diferența între date | P: [ZILE.BAS](Printer%20output/ZILE.BAS) <br> D: [ZILE.BAS](Display%20output/ZILE.BAS) | 466 <br> 414 | D |
+
+**English versions:**
+
+| Title | File | Steps | Labels |
+| ----- | ---- | ----- | ------ |
+| Receipt printer | P: [RECEIPT.BAS](Printer%20output/en/RECEIPT.BAS) <br> D: N/A | 155 | B, G |
+| Biorhythm | P: [BIORYTM.BAS](Printer%20output/BIORYTM.BAS) <br> D: [BIORYTM.BAS](Display%20output/BIORYTM.BAS) | 561 <br> 476 | A, Z |
+| Random number draws | P: [RAND.BAS](Printer%20output/en/RAND.BAS) <br> D: [RAND.BAS](Display%20output/en/RAND.BAS) | 180 <br> 147 | X |
+| Code breaker | P&D: [CODE.BAS](Printer%20output/CODE.BAS) | 717 | C |
+| Days between dates | P: [DAYS.BAS](Printer%20output/en/DAYS.BAS) <br> D: [DAYS.BAS](Display%20output/en/DAYS.BAS) | 456 <br> 410 | D |
+
 
 ## Resources
 
