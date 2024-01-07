@@ -50,21 +50,20 @@ My original programs are written in Romanian, but have been translated in Englis
 | Titlu | Fișier | Pași | Etichete |
 | ----- | ------ | ---- | -------- |
 | Bon comandă | P: [BON.BAS](Printer%20output/BON.BAS) <br> D: N/A | 151 | B, G |
-| Bioritm | P: [BIORITM.BAS](Printer%20output/BIORITM.BAS) <br> D: [BIORITM.BAS](Display%20output/BIORITM.BAS) | 556 <br> 468 | A, Z |
-| Extrageri numere aleatoare | P: [RAND.BAS](Printer%20output/RAND.BAS) <br> D: [RAND.BAS](Display%20output/RAND.BAS) | 179 <br> 142 | X |
+| Bioritm | P: [BIORITM.BAS](Printer%20output/BIORITM.BAS) <br> D: [BIORITM.BAS](Display%20output/BIORITM.BAS) | 549 <br> 461 | A, Z |
+| Extrageri numere aleatoare | P: [RAND.BAS](Printer%20output/RAND.BAS) <br> D: [RAND.BAS](Display%20output/RAND.BAS) | 187 <br> 142 | X |
 | Ghicește codul | P&D: [COD.BAS](Printer%20output/COD.BAS) | 718 | C |
-| Diferența între date | P: [ZILE.BAS](Printer%20output/ZILE.BAS) <br> D: [ZILE.BAS](Display%20output/ZILE.BAS) | 466 <br> 414 | D |
+| Diferența între date | P: [ZILE.BAS](Printer%20output/ZILE.BAS) <br> D: [ZILE.BAS](Display%20output/ZILE.BAS) | 470 <br> 426 | D |
 
 **English versions:**
 
 | Title | File | Steps | Labels |
 | ----- | ---- | ----- | ------ |
 | Receipt printer | P: [RECEIPT.BAS](Printer%20output/en/RECEIPT.BAS) <br> D: N/A | 155 | B, G |
-| Biorhythm | P: [BIORYTM.BAS](Printer%20output/BIORYTM.BAS) <br> D: [BIORYTM.BAS](Display%20output/BIORYTM.BAS) | 561 <br> 476 | A, Z |
-| Random number draws | P: [RAND.BAS](Printer%20output/en/RAND.BAS) <br> D: [RAND.BAS](Display%20output/en/RAND.BAS) | 180 <br> 147 | X |
+| Biorhythm | P: [BIORYTM.BAS](Printer%20output/BIORYTM.BAS) <br> D: [BIORYTM.BAS](Display%20output/BIORYTM.BAS) | 554 <br> 469 | A, Z |
+| Random number draws | P: [RAND.BAS](Printer%20output/en/RAND.BAS) <br> D: [RAND.BAS](Display%20output/en/RAND.BAS) | 188 <br> 147 | X |
 | Code breaker | P&D: [CODE.BAS](Printer%20output/CODE.BAS) | 717 | C |
-| Days between dates | P: [DAYS.BAS](Printer%20output/en/DAYS.BAS) <br> D: [DAYS.BAS](Display%20output/en/DAYS.BAS) | 456 <br> 410 | D |
-
+| Days between dates | P: [DAYS.BAS](Printer%20output/en/DAYS.BAS) <br> D: [DAYS.BAS](Display%20output/en/DAYS.BAS) | 460 <br> 422 | D |
 
 ## Resources
 
